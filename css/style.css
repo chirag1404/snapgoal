@@ -294,7 +294,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,236,236,1
     .fd-itm-cont {max-width: 100%;flex: 100%; margin-bottom: 40px}
     .fd-flintr-box.right .icon {float:  left;}
     .fd-flintr-box.right .flintro-info {text-align: left;}
-    .fd-mob-img img {display: none;}
+    /*.fd-mob-img img {display: none;}*/
     .fd-flintro-title {font-size: 50px;}
 }
 /**  intro And  **/
@@ -311,11 +311,12 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,236,236,1
 
 @media (max-width: 1024px) {
     .fd-slider .carousel-caption {padding: 0 10px;}
-    .fd-slider .fd-text-part {max-width: 60%;}
+    .fd-slider .fd-text-part {max-width: 0%;}
     .fd-slid-img {margin-left: -30%;}
+    .fd-slider .fd-mob-img {text-align: center; float: none; display: inherit;}
 }
 @media (max-width: 800px) {
-    .fd-slider .fd-text-part {max-width:100%;position: relative;margin-bottom: 46%;bottom: 0;}
+    .fd-slider .fd-text-part {max-width:100%;position: relative;bottom: 0;}
     .fd-slid-img {margin-left: -50%;}
     
 }
@@ -332,7 +333,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,236,236,1
 
 /** header Start **/
 
-.fd-header {background-color: transparent;border-bottom: solid 1px #fff;position: fixed;top: 0;z-index:  1;width: 100%;}
+.fd-header {background-color: transparent;border-bottom: solid 1px #fff;position: fixed;top: 0;z-index:  2;width: 100%;}
 .fd-header .navbar {padding: 0px; margin: 0px;}
 .fd-header .navbar-brand {padding: 0px; margin: 0px 40px 0 0;}
 .navbar-light .navbar-nav .nav-link {color: #fff;font-weight: 500;font-size: 14px;line-height: 40px;}
@@ -401,3 +402,4 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,236,236,1
     .fd-video .fd-flintro-title {font-size: 50px;}
 }
 /*** vido and ***/
+
